@@ -1,0 +1,11 @@
+<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="lightning-bolt">
+<path id="Vector" d="M22.8815 31.2499H12.4648L27.0482 2.08325V18.7499H37.4648L22.8815 47.9166V31.2499Z" fill="url(#paint0_linear_577_658)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_577_658" x1="24.9648" y1="2.08325" x2="24.9648" y2="47.9166" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="#BBCEFF"/>
+</linearGradient>
+</defs>
+</svg>

@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang='ru' class="h-screen">
+	<head>
+		<title>website_with_tailwind</title>
+		<meta http-equip = 'Content-type' content = 'text/html;charset=utf-8'/>
+		<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'>
+		<link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="./css/output.css">
+		<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+	</head>
+	<body class="snap-y font-['Space_Grotesk'] overflow-x-hidden">
+		<header class="header relative h-screen scroll-mt-10 snap-start overflow-hidden">
+			<div class="flex flex-col h-screen overflow-hidden text-white bg-[#031B5A]">
+				<div class="absolute right-0 w-1/2 h-full bg-gradient-to-r to-[#0045f57d] from-[rgba(0,69,245,0)]"></div>
+				<div 
+					class="
+						absolute 
+						-bottom-96 
+						-right-56
+						z-0
+						w-3/4
+						h-3/4
+						rotate-12
+						rounded-[200px]
+						bg-gradient-to-tl
+						from-[rgba(27,61,147,0.45)]
+						from-10%
+						to-[rgba(48,64,106,0.00))]
+					"
+				></div>
+				<div 
+					class="
+						absolute 
+						-top-[300px]
+						-left-[560px]
+						z-0
+						w-[1000px]
+						h-[750px]
+						rounded-[200px]
+						bg-gradient-to-br
+						from-[#1b3d9373]
+						from-10%
+						to-[rgba(48,64,106,0.00))]
+					"
+				></div>
+				<div class="absolute -top-[200px] z-20 w-[1000px] xl:w-[1200px] -left-[1000px]" id="cloud1">
+					<img class="sm:w-full" src="./img/cloud1.png" alt="">
+				</div>
+				<!-- <div class="absolute bottom-0 -right-48 z-20 max-w-2xl" id="cloud2">
+					<img class="w-full" src="./img/cloud2.png" alt="">
+				</div> -->
+				<nav class="flex px-3 sm:px-16 h-24 bg-gradient-to-b from-[#04102c85] from-10% font-normal z-40">
+					<div class="flex items-center">
+						<img class="min-w-16" src="./img/logo.svg" alt="">
+					</div>
+					<div class="flex ml-auto">
+						<ul class="inline-flex list-none text-xl [&>*]:hidden [&>*]:sm:block [&>*]:cursor-pointer [&>*]:ml-6 [&>*]:lg:ml-20 [&>*]:whitespace-nowrap">
+							<li class="my-auto">
+								About
+							</li>
+							<li class="my-auto">
+								Technology
+							</li>
+							<li class="my-auto">
+								Team
+							</li>
+							<li class="my-auto mr-2">
+								Contacts Us
+							</li>
+						</ul>
+					</div>
+				</nav>
+				<div class="sticky top-0 flex flex-col text-center sm:text-left sm:ml-16 text-4xl h-full font-bold justify-center z-20 sm:text-7xl">
+					<div class="flex flex-col text1-anim overflow-hidden">
+						<div class="inline-block px-2 overflow-hidden">
+							<p class="text1">
+								Grid-scale gravity
+							</p>
+						</div>
+						<p class="text1 inline-block px-2 sm:h-24 text-transparent whitespace-nowrap bg-clip-text bg-gradient-to-r from-20% from-blue-700 to-blue-200" id="linear">
+							energy storage
+						</p>
+					</div>
+				</div>
+				<div class="absolute right-0 bg-gradient-to-r from-[#0045F500] to-[#0045f584] z-10 w-1/3 h-full"></div>
+				<div class="absolute -bottom-32 -right-20 w-full lg:-right-40 h-1/2 sm:w-3/4 lg:w-1/2" id="building">
+					<img class="w-[60%]" src="./img/building.png" alt="">
+				</div>
+				<div class="block sm:flex items-center p-2 mx-3 sm:ml-16 mb-2 sm:mb-10 z-10" id="text2">
+					<div class="relative flex flex-col items-center sm:items-start [&>*]:sm:text-left text-center">
+						<div class="-bottom-40">
+							<p class="text-xl sm:text-3xl font-normal">The official GRAVIENT™ website</p>
+							<p class="text-lg sm:text-2xl text-slate-400">Gravitational energy storage technology</p>
+						</div>
+					</div>
+					<button
+						class="
+							sm:mt-0 
+							hidden
+							sm:block
+							mt-2 
+							sm:ml-10 
+							px-2 
+							sm:px-7 
+							h-12 
+							rounded-2xl 
+							border-white 
+							border 
+							border-solid 
+							text-nowrap 
+							bg-gradient-to-r 
+							from-[rgba(255,255,255,0.4)] 
+							from-5%
+						"
+					>
+						About us <span class="ml-2">➞</span>
+					</button>
+				</div>
+			</div>
+		</header>
+		<section class="min-h-screen bg-[#2E61DE] text-white section overflow-x-hidden">
+			<div class="overflow-hidden relative">
+				<div class="px-7 pt-7 lg:px-16 lg:pt-16">
+					<h2 class="flex items-center font-bold text-3xl mission">
+						Mission
+						<div class="w-full h-[2px] ml-2 bg-gradient-to-l from-[#ffffffcd] from-50%"></div>
+					</h2>
+					<div class="relative z-10 flex flex-wrap mt-7 lg:mt-24">
+						<div class="flex h-1/2 flex-wrap lg:justify-normal lg:flex-nowrap">
+							<div class="mr-5 lg:mr-10 sm:max-w-48 lg:max-w-60 flex flex-col text01 mt-5">
+								<p class="mb-0 lg:mb-12 text-lg lg:text-xl">Unleashes the full Lor potential of renewable energy</p>
+								<div class="flex items-center mt-auto">
+									<img class="mr-3" src="./img/01.svg" alt="">
+									<div class="mr-5 text-2xl">01</div>
+									<div class="w-full h-[2px] bg-gradient-to-r from-[#ffffffcd] from-50%"></div>
+								</div>
+							</div>
+							<div class="mr-5 lg:mr-10 sm:max-w-48 lg:max-w-60 flex flex-col text02 mt-5">
+								<p class="text-lg lg:text-xl">Makes electricity supply clean and reliable</p>
+								<div class="flex items-center mt-auto">
+									<img class="mr-3" src="./img/03.svg" alt="">
+									<div class="mr-5 text-2xl">02</div>
+									<div class="w-full h-[2.2px] bg-gradient-to-r from-[#ffffffcd] from-50%  content-end"></div>
+								</div>
+							</div>
+							<div class="mr-5 lg:mr-10 max-w-full sm:max-w-48 lg:max-w-60 flex flex-col text03 mt-5">
+								<p class="text-lg lg:text-xl">Outperforms pumped hydro and Li-ion technologies</p>
+								<div class="flex items-center mt-auto">
+									<img class="mr-3" src="./img/02.svg" alt="">
+									<div class="mr-5 text-2xl">03</div>
+									<div class="w-full h-[2.2px] bg-gradient-to-r from-[#ffffffcd] from-50%"></div>
+								</div>
+							</div>
+						</div>
+						<div class="hidden mr-10 max-w-[450px] lg:flex flex-col text04 mt-5">
+							<h2 class="text-2xl font-bold">Technologyy</h2>
+							<p class="mb-4 text-xl">
+								Lorem ipsum dolor sit amet, 
+								consectetur adipiscing elit, 
+								sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+								Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+							</p>
+							<button
+								class="
+									block
+									w-1/2
+									mt-2 
+									px-2 
+									sm:px-7 
+									h-12
+									rounded-2xl 
+									border-white 
+									border 
+									border-solid 
+									text-nowrap
+									bg-gradient-to-r 
+									from-[rgba(255,255,255,0.4)] 
+									from-5%
+								"
+							>
+								More details <span class="ml-2">➞</span>
+							</button>
+						</div>
+					</div>
+				</div>
+				<img class="z-20 opacity-50 absolute top-40 -right-12 lg:-right-56 cloud2" src="./img/cloud2.png" alt="">
+				<img class="z-20 opacity-50 absolute top-40 -left-12 lg:-left-56 cloud2" src="./img/cloud3.png" alt="">
+				<div class="relative z-10 text05 flex justify-center w-full text-center font-bold text-2xl sm:text-4xl mt-10 lg:mt-28 lg:text-7xl">
+					<div class="max-w-[1350px] mx-5 z-10">
+						GRAVIENT™ 
+						<span class="text1-opacity">energy</span> storage 
+						<span class="text1-opacity">consumes and produces</span> energy 
+						<span class="text1-opacity">by moving weights up and down</span>
+					</div>
+				</div>
+				<div class="lg:mt-20 relative h-[200px] sm:h-[400px] z-0">
+					<img class="absolute bottom-0 w-full z-0" src="./img/field.png" alt="">
+				</div>
+			</div>
+		</section>
+		<div class="promo min-h-screen relative bg-[#021B5B] text-white">
+			<div class="last absolute">
+				<div class="last-1"></div>
+				<div class="last-2"></div>
+			</div>
+			<div class="promo-text block lg:flex relative z-10 p-8 sm:p-16 h-full">
+				<div class="flex flex-col h-full justify-center mt-0 lg:mt-56 lg:mr-10 xl:mr-20">
+					<div class="text-4xl sm:text-8xl font-bold text-nowrap">
+						<p>Ready for</p>
+						<div class="text-transparent inline-block bg-clip-text bg-gradient-to-r from-10% from-blue-500 to-white">orders now</div>
+					</div>
+					<p class="max-w-lg lg:max-w-xl mt-3">
+						We’re building relationships 
+						with customers and partners around the 
+						world who value the commercial 
+						applications and industrial scalability 
+						of the GRAVIENT™ technology. 
+						Join us in the transition to a sustainable 
+						future.
+					</p>
+				</div>
+				<div class="flex flex-col mt-20 mx-auto">
+					<div class="flex flex-col justify-center mt-20 lg:mt-0 max-w-lg">
+						<div class="flex overflow-hidden">
+							<div class="w-1/2 mr-5">
+								<p class="text-[#5E7CC7]">First name</p>
+								<input class="w-full" type="text" placeholder="Your First Name">
+							</div>
+							<div class="w-1/2">
+								<p class="text-[#5E7CC7]">Last name</p>
+								<input type="text" placeholder="Your Last Name">
+							</div>
+						</div>
+						<div class="mt-5 w-full">
+							<p class="text-[#5E7CC7]">Phone</p>
+							<input class="w-full" type="tel" placeholder="+1 (000) 000 000">
+						</div>
+						<div class="mt-5">
+							<p class="text-[#5E7CC7]">Email</p>
+							<input class="w-full type="email" placeholder="example@outlock.com">
+						</div>
+					</div>
+					<button class="w-28 rounded-2xl bg-[#0249FF] py-3 px-5 mt-6 xl:mt-24">
+						Send
+					</button>
+					<div class="mt-10 xl:mt-20">
+						<img class="inline-block" src="./img/USA.svg" alt="">
+						<span class="ml-2">
+							1750 Tysons Boulevard, Suite 1500, McLean, VA 22102
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="flex flex-wrap text-base lg:text-2xl pb-10 pt-5 justify-center xl:flex-nowrap px-3 sm:px-16 border-t-2 border-[#151c4671] bg-[#021B5B] font-normal z-40 text-white">
+			<div class="flex items-center mr-10 mt-5">
+				<img class="min-w-16" src="./img/logo.svg" alt="">
+				<div class="ml-3 text-slate-300 text-nowrap">© All Rights Reserved</div>
+			</div>
+			<div class="flex">
+				<ul class="inline-flex flex-wrap justify-center [&>*]:whitespace-nowrap">
+					<li class="my-auto mt-5 mr-5">
+						About
+					</li>
+					<li class="my-auto mt-5 mr-5">
+						Technology
+					</li>
+					<li class="my-auto mt-5 mr-5">
+						Team
+					</li>
+					<li class="my-auto mt-5 mr-5">
+						Contacts Us
+					</li>
+					<li class="flex items-center mt-5">
+						<img class="mr-3" src="./img/group (1).svg" alt="">
+						<img class="mr-3" src="./img/group (2).svg" alt="">
+						<img class="mr-3" src="./img/group (3).svg" alt="">
+						<img class="mr-3" src="./img/group (4).svg" alt="">
+					</li>
+				</ul>
+			</div>
+		</footer>
+		<!-- SCRIPTS -->
+		<script src="./scripts/animation.js" ></script>
+	</body>
+</html>
+
+<!-- npx tailwind -i ./src/css/style.css -o ./src/css/output.css -w -->
